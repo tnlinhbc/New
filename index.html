@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image: url(./img/Wallhaven/jrmnt_2ymgg9.jpg);">
+    <!-- JS -->
+    <script src="main.js"></script>
+    <!-- js -->
+
+    <form name="login" class="login">
+        <h1>Đăng nhập</h1>
+        <div class="dangNhap">
+            <div class="useName">
+                <input type="text" name="dangNhap" placeholder="Tên đăng nhập">
+            </div>
+            <div class="passWord">
+                <input type="password" name="passWord" placeholder="Mật Khẩu">
+            </div>
+            <div class="reMemBer"><label for="nhoMatKhau"><input type="checkbox" name="nhoMatKhau" id="">Nhớ mật
+                    khẩu</label></div>
+        </div>
+        <div class="button">
+            <input type="button" value="Đăng Nhập" style="font-weight: bold;" onclick="kiemTra()"><input type="reset"
+                value="Huỷ" style="font-weight: bold;" onclick="huy()">
+        </div>
+    </form>
+    <div id="hienThongTin"></div>
+</body>
+
+</html>

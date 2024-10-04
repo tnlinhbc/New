@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.login {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dangNhap {
+    margin-top: 1em;
+}
+
+.useName input {
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.295);
+    background-image: url(./img/id-card.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 1.5em;
+}
+
+.useName input::placeholder {
+    color: snow;
+    font-weight: bold;
+}
+
+.passWord input {
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.295);
+    background-image: url(./img/locked.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+.passWord input::placeholder {
+    color: snow;
+    font-weight: bold;
+}
+
+.reMemBer {
+    font-weight: bold;
+    color: snow;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+.button input {
+    margin: 0 1em;
+    background-color: silver;
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+    height: 25px;
+}
+
+.button input:hover {
+    background-color: brown;
+    color: white;
+}
+
+.login {
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.447);
+    padding: 2em 0;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#hienThongTin {
+    text-align: center;
+}
+
+#hienThongTin h3 {
+    color: red;
+    margin-bottom: 1em;
+}
+
+#hienThongTin p {
+    font-weight: bolder;
+    color: snow;
+    margin-bottom: 0.5em;
+}
+
+#hienThongTin span {
+    color: snow;
+    font-style: normal;
+}
+
+#hienThongTin {
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.447);
+    width: 30%;
+    padding: 1em 0;
+}
